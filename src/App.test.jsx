@@ -6,6 +6,6 @@ import App from "./App"
 describe("App component", () => {
   test("renders Hello text", () => {
     render(<App />)
-    expect(screen.getByText(/hello/i)).toBeInTheDocument()
+    expect(screen.getByText(/hello/i)).toBeTruthy()
   })
 })
